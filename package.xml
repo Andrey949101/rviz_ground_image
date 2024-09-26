@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rviz_ground_image</name>
+  <version>0.0.1</version>
+  <description>A simple RVIZ plugin to display a static image from a file</description>
+  <license>BSD</license>
+  <author email="belkin.am@starline.ru">Andrey Belkin</author>
+  <maintainer email="belkin.am@starline.ru">Andrey Belkin</maintainer>
+
+  <buildtool_depend>starline_cmake_auto</buildtool_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+  <depend>pluginlib</depend>
+  <depend>rviz_common</depend>
+  <depend>rviz_rendering</depend>
+  <depend>rviz_default_plugins</depend>
+  <depend>rclcpp</depend>
+  <depend>Ogre</depend>
+
+  <!-- <export>
+    <rviz plugin="plugin_description.xml"/>
+    <build_type>ament_cmake</build_type>
+  </export> -->
+
+  <exec_depend>rviz2</exec_depend>
+</package>
